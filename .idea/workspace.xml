@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="016f5ea3-6052-41cb-94a3-6bc9b1a07629" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rtg.py" afterPath="$PROJECT_DIR$/rtg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/payload/camera.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/payload/infra_red.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/payload/radio_waves.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/payload/ultra_violet.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rtg.py" afterPath="$PROJECT_DIR$/power_generation/rtg.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/solar_cells.py" afterPath="$PROJECT_DIR$/power_generation/solar_cells.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,18 +36,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rtg.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rtg.py">
+      <file leaf-file-name="rtg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/power_generation/rtg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camera.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payload/camera.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="infra_red.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/payload/infra_red.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ultra_violet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payload/ultra_violet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="radio_waves.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payload/radio_waves.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="solar_cells.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solar_cells.py">
+        <entry file="file://$PROJECT_DIR$/power_generation/solar_cells.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
               <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -90,6 +135,11 @@
         <option value="$PROJECT_DIR$/solar_cells.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/rtg.py" />
+        <option value="$PROJECT_DIR$/camera.py" />
+        <option value="$PROJECT_DIR$/payload/ultra_violet.py" />
+        <option value="$PROJECT_DIR$/payload/radio_waves.py" />
+        <option value="$PROJECT_DIR$/payload/camera.py" />
+        <option value="$PROJECT_DIR$/payload/infra_red.py" />
       </list>
     </option>
   </component>
@@ -128,6 +178,16 @@
               <item name="sead_spacecraft" type="b2602c69:ProjectViewProjectNode" />
               <item name="sead_spacecraft" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sead_spacecraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sead_spacecraft" type="462c0819:PsiDirectoryNode" />
+              <item name="payload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sead_spacecraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sead_spacecraft" type="462c0819:PsiDirectoryNode" />
+              <item name="power_generation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -139,6 +199,12 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/power_generation" />
+      <recent name="$PROJECT_DIR$/payload" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,14 +279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solar_cells.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -237,10 +295,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rtg.py">
+    <entry file="file://$PROJECT_DIR$/payload/ultra_violet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payload/radio_waves.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power_generation/solar_cells.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power_generation/rtg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payload/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payload/infra_red.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
       </provider>

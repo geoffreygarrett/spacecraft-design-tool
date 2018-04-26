@@ -15,8 +15,8 @@ ir_mapping = namedtuple('ir_mapping', 'mission_name ifov mass p_av p_peak')
 HRSC = ir_mapping(mission_name="esa_mars",
                   ifov=0.1279,
                   mass=20.4,
-                  p_av=5.30,
-                  p_peak=7.50)
+                  p_av=43.4,
+                  p_peak=61.38)
 
 SSI = ir_mapping(mission_name='galileo',
                  ifov=0.1822,

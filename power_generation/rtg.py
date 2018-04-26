@@ -30,5 +30,5 @@ GPHS_RTG_2 = rtg(power_mass=5.4,
                  heat=4400,
                  power=300)
 
-if __name__=="__main__":
+if __name__=="__main__":`
     print(GPHS_RTG_1.power)

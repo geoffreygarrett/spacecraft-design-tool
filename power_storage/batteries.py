@@ -13,5 +13,4 @@ __status__      = "Development"
 
 battery = namedtuple('battery', 'energy_density')
 
-Li_SoCl2 = battery(energy_density=53.4,      # [Wh/kg]
-                  )
+Li_SoCl2 = battery(energy_density=53.4)     # [Wh/kg]

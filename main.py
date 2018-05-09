@@ -5,6 +5,7 @@ from payload.gravity_science import *
 from power_generation.solar_cells import *
 from power_storage.batteries import *
 from tools import eps_parameters, _total_power
+import numpy as np
 
 
 # Authorship -----------------------------------------------------------------------------#
@@ -22,12 +23,12 @@ __status__      = "Development"
 gm = 126.687*10**6        # [km^3/s^2]
 h = 5000.                 # [km]
 sr = 2                    # [km]
-d = 5                     # [AU]
+d = 49                    # [AU]
 t_op = 3                  # [years]
 t_voyage = 3              # [years]
 r_planet = 69911.         # [km]
 lambda_j = 30.            # [deg]
-solar_irr = 50.25         # [W/m^2]
+solar_irr = 0.873         # [W/m^2]
 
 
 # Define chosen instruments for scientific payload.
@@ -40,8 +41,10 @@ chosen_gravity_science = JUNO_GSI
 chosen_instruments = [chosen_camera, chosen_infra_red, chosen_ultra_violet, chosen_gravity_science]
 
 # Payload parameters calculation.
-p_av = sum([x.p_av for x in chosen_instruments])
-p_peak = sum([x.p_peak for x in chosen_instruments])
+# p_av = sum([x.p_av for x in chosen_instruments])
+# p_peak = sum([x.p_peak for x in chosen_instruments])
+p_av = 50
+p_peak = 50 * np.sqrt(2)
 m_pl = sum([x.mass for x in chosen_instruments])
 
 # EPS Power generation parameters.
